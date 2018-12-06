@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sub"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sub1Activity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="@string/search_another"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toEndOf="@+id/editText2"
+        android:layout_toRightOf="@+id/editText2"
+        android:text="@string/search_text" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_alignEnd="@+id/button"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="-3dp"
+        android:layout_marginRight="-3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/realty_info5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_launcher_round"
+                android:drawableLeft="@mipmap/ic_launcher_round"
+                android:padding="10dp"
+                android:text="@string/Realty_info"
+                tools:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/realty_info4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_launcher_round"
+                android:drawableLeft="@mipmap/ic_launcher_round"
+                android:padding="10dp"
+                android:text="@string/Realty_info"
+                tools:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/realty_info3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_launcher_round"
+                android:drawableLeft="@mipmap/ic_launcher_round"
+                android:padding="10dp"
+                android:text="@string/Realty_info"
+                tools:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/realty_info2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_launcher_round"
+                android:drawableLeft="@mipmap/ic_launcher_round"
+                android:padding="10dp"
+                android:text="@string/Realty_info"
+                tools:layout_margin="10dp" />
+
+            <TextView
+                android:id="@+id/Realty_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@mipmap/ic_launcher_round"
+                android:drawableLeft="@mipmap/ic_launcher_round"
+                android:padding="10dp"
+                android:text="@string/Realty_info"
+                tools:layout_margin="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
